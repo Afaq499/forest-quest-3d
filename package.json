@@ -1,0 +1,33 @@
+{
+  "name": "forest-quest-3d",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Forest Quest 3D, a third-person coin collecting browser game with Vi3W model slots.",
+  "type": "module",
+  "scripts": {
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}
